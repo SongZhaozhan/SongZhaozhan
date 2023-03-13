@@ -1,20 +1,31 @@
-### Hi everyone 👋
+## Zhaozhan Song   
 
-I'm SongZhaozhan, an assistant project manager.    
+⏳ Year progress { █████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 19.53 %
+
+
+⏰ Updated on Mon, 13 Mar 2023 07:07:20 GMT
+
+---
+
+I'm Zhaozhan Song, an assistant project manager. 
 
 - 🔭 I’m currently striving for a better life in Beijing.           
-- 📫 My E-mail: simingsong@foxmail.com          
+- 📫 My E-mail: simingsong@foxmail.com
 
-### About me      
+### About me  
+- M.S. in Control Engineering, 2022 
+  - School of Automation, Beijing Institute of Technology (BIT)
+- B.S. in Automation, 2019
+  - College of Information Science and Engineering, Northeast University (NEU)
 
+### My Github
 [![Zhaozhan's GitHub stats](https://github-readme-stats.vercel.app/api?username=SongZhaozhan&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
-![Zhaozhan's Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SongZhaozhan&layout=compact&hide_border=true&langs_count=10)
 
 ### My Skill Set  
 <table><tr><td valign="top" width="33%">
 
-Deep Learning  
+<div align = "center">Deep Learning</div>
+&nbsp;
 <div align="center">  
 <a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>  
 <a href="https://pytorch.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/pytorch-icon.svg" alt="pytorch" height="50" /></a>  
@@ -24,7 +35,8 @@ Deep Learning
 
 
 
-Backend  
+<div align = "center">Backend</div>
+&nbsp;
 <div align="center">  
 <a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" /></a>  
 <a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>  
@@ -38,7 +50,8 @@ Backend
 
 
 
-DevOps  
+<div align = "center">DevOps</div>         
+&nbsp;
 <div align="center">  
 <a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
 <a href="https://www.jenkins.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/jenkins-icon.svg" alt="Jenkins" height="50" /></a>  
@@ -47,4 +60,6 @@ DevOps
 
 </td></tr></table>  
 
-<br/>  
+<br/>
+
+
