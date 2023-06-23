@@ -1,9 +1,9 @@
 ## Zhaozhan Song   
 
-⏳ Year progress { ██████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 47.13 %
+⏳ Year progress { ██████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 47.41 %
 
 
-⏰ Updated on Thu, 22 Jun 2023 00:49:09 GMT
+⏰ Updated on Fri, 23 Jun 2023 00:54:44 GMT
 
 ---
 
