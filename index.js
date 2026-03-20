@@ -1,25 +1,29 @@
-const thisYear = new Date().getFullYear()
-const startTimeOfThisYear = new Date(`${thisYear}-01-01T00:00:00+00:00`).getTime()
-const endTimeOfThisYear = new Date(`${thisYear}-12-31T23:59:59+00:00`).getTime()
-const progressOfThisYear = (Date.now() - startTimeOfThisYear) / (endTimeOfThisYear - startTimeOfThisYear)
-const progressBarOfThisYear = generateProgressBar()
-
-function generateProgressBar() {
-    const progressBarCapacity = 30
-    const passedProgressBarIndex = parseInt(progressOfThisYear * progressBarCapacity)
-    const progressBar =
-      '█'.repeat(passedProgressBarIndex) +
-      '▁'.repeat(progressBarCapacity - passedProgressBarIndex)
-    return `{ ${progressBar} }`
+// 进度条生成
+function generateProgressBar(progress, capacity = 30) {
+    const passed = Math.floor(progress * capacity)
+    const filled = '█'.repeat(passed)
+    const empty = '▁'.repeat(capacity - passed)
+    return `{ ${filled}${empty} }`
 }
 
+// 年度进度计算
+function getYearProgress(now = new Date()) {
+    const year = now.getFullYear()
+    const start = new Date(Date.UTC(year, 0, 1)).getTime()
+    const end = new Date(Date.UTC(year + 1, 0, 1)).getTime()
+    return (now.getTime() - start) / (end - start)
+}
+
+const now = new Date()
+const progress = getYearProgress(now)
+const progressBar = generateProgressBar(progress)
+
 const readme = `\
-## Zhaozhan Song   
+## Zhaozhan Song
 
-⏳ Year progress ${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
+⏳ Year progress ${progressBar} ${(progress * 100).toFixed(2)} %
 
-
-⏰ Updated on ${new Date().toUTCString()}
+⏰ Updated on ${now.toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai', hour12: false })}
 
 ---
 
@@ -77,8 +81,6 @@ I'm Zhaozhan Song, an assistant project manager.
 </td></tr></table>  
 
 <br/>
-
-\
 `
 
 console.log(readme)
