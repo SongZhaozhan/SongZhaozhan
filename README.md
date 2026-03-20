@@ -1,9 +1,8 @@
-## Zhaozhan Song   
+## Zhaozhan Song
 
-⏳ Year progress { ██████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 21.39 %
+⏳ Year progress { ██████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 21.55 %
 
-
-⏰ Updated on Fri, 20 Mar 2026 01:20:54 GMT
+⏰ Updated on 2026/3/20 23:36:08
 
 ---
 
@@ -61,5 +60,4 @@ I'm Zhaozhan Song, an assistant project manager.
 </td></tr></table>  
 
 <br/>
-
 
